@@ -1,0 +1,11 @@
+<div class="container d-flex justify-content-center align-items-center h-100">
+    <div class="card">
+      <div class="card-body text-center">
+        <h3 class="card-title">Welcome, {{ loggedInUserInfo.email}}!</h3>
+        <p class="card-text">You are now logged in.</p>
+        <button class="btn btn-primary custom-btn" (click)="editProfile()">Edit Profile</button>
+        <button class="btn btn-danger custom-btn" (click)="signOut()">Sign Out</button>
+      </div>
+    </div>
+  </div>
+  
